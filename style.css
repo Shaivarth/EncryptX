@@ -1,0 +1,124 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #1b1b1b;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+/* ---- Header ---- */
+header {
+  background: #000000;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 20px;
+  font-size: 16px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-weight: normal;
+}
+
+.logo img {
+  width: 60px;
+  height: 30px;
+  margin-right: 8px;
+  border-bottom-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav a:hover {
+  text-decoration:none;
+}
+
+/* ---- Center Section ---- */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 50px);
+  flex-direction: column;
+  margin-top: -60px; /* moves whole container up */
+}
+
+/* ---- Choice Buttons ---- */
+.choice {
+  margin-top: -30px;
+  text-align: center;
+}
+
+.choice button {
+  padding: 8px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background: #282828;
+  color: white;
+  font-size: 16px;
+  font-weight: normal;
+  transition: transform 0.2s ease, background 0.3s ease;
+}
+
+.choice button:hover {
+  background: #484848;
+  transform: scale(1.05);
+}
+
+/* ---- Main Box ---- */
+.box {
+  background: #1b1b1b;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  width: 400px;
+  text-align: center;
+  opacity: 0;
+  transform: scale(0.9);
+  transition: all 0.4s ease;
+  display: none;
+}
+
+.box.show {
+  display: block;
+  opacity: 1;
+  transform: scale(1);
+}
+
+textarea {
+  width: 100%;
+  height: 40px; 
+  margin: 10px 0;
+  padding: 12px;
+  border-radius: 12px;
+  border: 1px solid #171717;
+  resize: none;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+
+.action-btn {
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background: #282828;
+  color: white;
+  font-weight: normal;
+}
+
+.action-btn:hover {
+  background: #484848;
+}

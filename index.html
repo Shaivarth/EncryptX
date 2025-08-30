@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EncrypX</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">
+      <img src="Images/eye.jpg" alt="icon"> 
+      EncryptX
+    </div>
+    <div class="nav">
+        <a href="https://shaivarth.github.io/Portfolio-Website/" target="_blank">About Me</a>
+    </div>
+  </header>
+  
+  <!-- Main Section -->
+  <div class="container">
+<div id="animation" style="margin-bottom:1px; text-align:center;">
+  <svg viewBox="0 0 200 100" width="100" height="150">
+    <path d="M10,50 C10,10 90,10 100,50 
+             C110,90 190,90 190,50 
+             C190,10 110,10 100,50 
+             C90,90 10,90 10,50"
+          fill="none"
+          stroke="white"
+          stroke-width="3"
+          stroke-linecap="round"
+          stroke-dasharray="110 350"
+          stroke-dashoffset="300"
+          opacity="0.9">
+      <animate attributeName="stroke-dashoffset"
+               from="200" to="-200"
+               dur="1s"
+               repeatCount="indefinite" />
+    </path>
+  </svg>
+</div>
+    <div class="choice" id="choice">
+      <h2 style="color:white; font-weight:normal; margin-bottom:25px;">
+        Welcome to <b>EncryptX</b>.
+      </h2>
+      <button onclick="showBox('encrypt')">Encrypt</button>
+      <button onclick="showBox('decrypt')">Decrypt</button>
+    </div>
+
+<div class="box" id="box">
+  <div id="inputSection">
+    <textarea id="input" rows="4" placeholder="Enter text"></textarea>
+    <div>
+      <button class="action-btn" id="mainBtn"></button>
+      <button class="action-btn" onclick="goBack()">Back</button>
+    </div>
+  </div>
+
+  <div id="resultSection" style="display:none;">
+    <textarea id="output" rows="4" placeholder="Result" readonly></textarea>
+    <div>
+      <button class="action-btn" onclick="goBack()">Back</button>
+    </div>
+  </div>
+</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
