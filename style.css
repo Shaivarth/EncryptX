@@ -5,7 +5,6 @@ body {
   overflow-x: hidden;
 }
 
-/* ---- Header ---- */
 header {
   background: #000000;
   color: white;
@@ -42,7 +41,7 @@ header {
   text-decoration:none;
 }
 
-/* ---- Center Section ---- */
+
 .container {
   display: flex;
   justify-content: center;
@@ -52,7 +51,7 @@ header {
   margin-top: -60px; /* moves whole container up */
 }
 
-/* ---- Choice Buttons ---- */
+
 .choice {
   margin-top: -30px;
   text-align: center;
@@ -76,7 +75,7 @@ header {
   transform: scale(1.05);
 }
 
-/* ---- Main Box ---- */
+
 .box {
   background: #1b1b1b;
   padding: 20px;

@@ -16,7 +16,7 @@ function showBox(mode) {
   document.getElementById("animation").style.display = "none";
 
   const box = document.getElementById("box");
-  fadeIn(box);   // <--- smooth fade-in
+  fadeIn(box);   
 
   const btn = document.getElementById("mainBtn");
   if (mode === "encrypt") {
