@@ -1,5 +1,5 @@
-## What is EncryptX ?
-EncryptX is a encryption and decryption tool. It implements a high-security cipher algorithm designed by Shaivarth, capable of converting plaintext into a secure encrypted binary form and back. The interface is interactive, minimalistic.
+## What is Śārṅga ?
+Śārṅga is a encryption and decryption tool. It implements a high-security cipher algorithm designed by Shaivarth, capable of converting plaintext into a secure encrypted binary form and back. The interface is interactive, minimalistic.
 
 ## Features :
 
@@ -8,8 +8,8 @@ EncryptX is a encryption and decryption tool. It implements a high-security ciph
 - Output can be stored safely without worrying about unauthorized access.
 - Minimalistic and responsive design for smooth user experience.
 
-## EncryptX Cipher Algorithm 
-**This table represents the structure of my high-security EncryptX Cipher Algorithm, which combines custom prefixes and binary encoding to encrypt text securely.**
+## Śārṅga Cipher Algorithm 
+**This table represents the structure of my high-security Śārṅga Cipher Algorithm, which combines custom prefixes and binary encoding to encrypt text securely.**
 
 | Prefix | Type            | Bits             | Example        |
 |--------|-----------------|------------------|----------------|
@@ -18,7 +18,7 @@ EncryptX is a encryption and decryption tool. It implements a high-security ciph
 | 01     | Digits 0-9      | 4 bits           | 5 → 01 0101    |
 | 10     | Symbols/Other   | 8 bits (ASCII)   | @ → 10 01000000|
 
-## Why EncryptX is Secure?
+## Why Śārṅga is Secure?
 
 - **Custom Prefixes:** Different prefixes for lowercase letters, uppercase letters, digits, and symbols make pattern recognition extremely difficult.
 
