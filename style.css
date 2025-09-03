@@ -22,13 +22,19 @@ header {
 }
 
 .logo img {
-  width: 60px;
+  width: 30px;
   height: 30px;
-  margin-right: 8px;
-  border-bottom-left-radius: 40px;
-  border-top-right-radius: 40px;
-  border-top-left-radius: 40px;
-  border-bottom-right-radius: 40px;
+
+}
+
+.logo-center {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.logo-center img {
+  height: 35px;
 }
 
 .nav a {
